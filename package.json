@@ -1,0 +1,22 @@
+{
+  "name": "@shared/match3d",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Shared three.js pitch, player, ball and camera renderer for the football games",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./constants": {
+      "types": "./types/constants.d.ts",
+      "default": "./src/constants.js"
+    }
+  },
+  "peerDependencies": {
+    "three": ">=0.170.0"
+  }
+}
