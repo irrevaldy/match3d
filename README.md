@@ -8,7 +8,7 @@ locally by both `football-game` and `touchline` so a visual improvement lands in
 Both apps depend on a tagged release of this repository:
 
 ```json
-"@shared/match3d": "github:irrevaldy/match3d#v0.1.0"
+"@shared/match3d": "git+https://github.com/irrevaldy/match3d.git#v0.1.0"
 ```
 
 To release a change: commit, tag a new version (`git tag v0.1.1 && git push --tags`), then
